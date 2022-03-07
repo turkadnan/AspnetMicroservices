@@ -7,11 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{27
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{085E756F-A00A-4EA5-BB1C-FB9271BFF510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{C951FC00-94DC-4F61-8C87-D4CCF025C68C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{C951FC00-94DC-4F61-8C87-D4CCF025C68C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{8A4F37A3-C89A-4EC4-A5BC-868A2BB47092}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Users\Adnan\Downloads\mongo+commands.txt = ..\..\..\Users\Adnan\Downloads\mongo+commands.txt
+		..\..\..\..\Users\adnan.turk\Downloads\mongo+commands.txt = ..\..\..\..\Users\adnan.turk\Downloads\mongo+commands.txt
 	EndProjectSection
 EndProject
 Global
