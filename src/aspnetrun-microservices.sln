@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2738CE4C-5471-4E7E-83E5-D14D968F8848}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{085E756F-A00A-4EA5-BB1C-FB9271BFF510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{C951FC00-94DC-4F61-8C87-D4CCF025C68C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{8A4F37A3-C89A-4EC4-A5BC-868A2BB47092}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\Adnan\Downloads\mongo+commands.txt = ..\..\..\Users\Adnan\Downloads\mongo+commands.txt
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C951FC00-94DC-4F61-8C87-D4CCF025C68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C951FC00-94DC-4F61-8C87-D4CCF025C68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C951FC00-94DC-4F61-8C87-D4CCF025C68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C951FC00-94DC-4F61-8C87-D4CCF025C68C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{085E756F-A00A-4EA5-BB1C-FB9271BFF510} = {2738CE4C-5471-4E7E-83E5-D14D968F8848}
+		{C951FC00-94DC-4F61-8C87-D4CCF025C68C} = {085E756F-A00A-4EA5-BB1C-FB9271BFF510}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A119ABD6-388B-4C0B-A0A6-A6454AC9FBA3}
